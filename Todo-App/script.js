@@ -1,21 +1,4 @@
-// let todoInput = document.querySelector(".todo-input");
-// let addTodoButton = document.querySelector(".add-todo");
-
-// //attach click event on add todo button
-// addTodoButton.addEventListener("click",function(){
-//     let todoInputValue = todoInput.value;
-//     //falsy value= "",zero ,undefined, false, null, NAN(not a number)
-//     if(todoInputValue){
-//     console.log(todoInputValue);
-//     //it will empty the todo input
-//     todoInput.value = "";
-//     }
-// })
-// todoInput.addEventListener("keypress",function(event){
-//    if(event.key == "Enter"){
-//         console.log("Enter pressed!!");
-//     }
-// });
+//falsy value= "",zero ,undefined, false, null, NAN(not a number)
 let addTodoButton = document.querySelector(".add-todo");
 let todoInput = document.querySelector(".todo-input");
 let todosList = document.querySelector(".todos-list-container");
